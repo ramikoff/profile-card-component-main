@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(229, 23%, 23%);
+  background: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg"), #19a2ae;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: -70% 50%, 160% -30%;
+  max-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.card {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card-top img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-ava img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -15%;
+}
+
+.card-main {
+  margin: 20px;
+}
+
+span {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+}
+
+.card-main p {
+  font-size: 0.9em;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+
+.card-main span {
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.card-main p span {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 0.7em;
+  color: hsl(227, 10%, 46%);
+}
+
+.social {
+  border-top: 1px solid #eeeeee;
+}
+
+.fol, .like, .fotos {
+  display: inline-block;
+  margin: 30px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ------------------------------------------@media---------------------------------------------------- */
+@media screen and (max-width: 1580px) {
+  body {
+    background-position: -80% 60%, 130% -10%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  body {
+    background-size: 125%;
+    background-position: 280% 70%, -150% -10%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body {
+    background-size: 125%;
+    background-position: 300% 60%, -150% -20%;
+  }
+}
+
+
+@media screen and (max-width: 1100px) {
+  body {
+    background-size: 125%;
+    background-position: 280% 55%, -150% -30%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-size: 80%;
+    background-position: -120% 55%, 220% -50%;
+  }
+}
+
+
+@media screen and (max-width: 950px) {
+  body {
+    background-size: 90%;
+    background-position: -280% 45%, 380% -50%;
+  }
+}
+
+@media screen and (max-width: 800px) and (orientation: Portrait) {
+  body {
+    background-size: 125%;
+    background-position: 280% 25%, -220% -50%;
+  }
+}
+
+@media screen and (max-width: 800px) and (orientation: Landscape) {
+  body {
+    background-size: 125%;
+    background-position: 270% 55%, -120% -30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-size: 125%;
+    background-position: 280% 35%, -140% -50%;
+  }
+}
+
+@media screen and (max-width: 736px) and (orientation:Landscape) {
+  body {
+    background-size: 125%;
+    background-position: 320% 65%, -180% -10%;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  body {
+    background-size: 125%;
+    background-position: 320% 65%, -120% -30%;
+  }
+
+  .wrapper {
+    max-width: 335px;
+    max-height: 335px;
+  }
+
+  .card {
+    max-width: 335px;
+    max-height: 335px;
+  }
+
+  .fol, .like, .fotos {
+    margin-top: 15px;
+  }
+
+  .card-top img {
+    max-width: 335px;
+  }
+
+  .social span {
+    margin: 0;
+    font-size: 0.9em;
+  }
+
+  .social h1 {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    background-size: 125%;
+    background-position: 300% 45%, -180% -50%;
+  }
+
+  .wrapper {
+    max-width: 335px;
+    max-height: 335px;
+  }
+
+  .card {
+    max-width: 335px;
+    max-height: 335px;
+  }
+
+  .fol, .like, .fotos {
+    margin-top: 15px;
+  }
+
+  .card-top img {
+    max-width: 335px;
+  }
+
+  .social span {
+    margin: 0;
+    font-size: 0.9em;
+  }
+
+  .social h1 {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    background-size: 125%;
+    background-position: 300% 45%, -180% -50%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    background-size: 125%;
+    background-position: 300% 45%, -160% -90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-size: 80%;
+  }
+
+  .card {
+    min-height: 375px;
+    min-width: 325px;
+  }
+
+  .card-top img {
+    max-width: 325px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card-top img {
+    max-width: 335px;
+  }
+
+  body {
+    background-size: 125%;
+    background-position: 300% 45%, -160% -90%;
+  }
+}
